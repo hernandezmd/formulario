@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">- FERIA DE CIENCIAS 2023 -Colegio Provincial N° 18 - La Rioja-Argentina</h1>
+        <p id="description" class="description text-center">
+  Docente Responsable: Profesora Mónica Hernández - Gracias por tomarse el tiempo de responder.
+        </p>
+      </header>
+   <form action="https://formsubmit.co/monina24401@gmail.com" method="post" id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Nombre</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Ingresa tu nombre"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Ingresa tu Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Edad<span class="clase">(opcional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Edad"
+          />
+        </div>
+        <div class="form-group">
+          <p>¿Qué opcion describe mejor tu rol en el colegio?</p>
+          <select id="desplegable" name="rol" class="form-control" required>
+            <option disabled selected value>Selecciona tu Rol en el colegio</option>
+            <option value="estudiente">Estudiante</option>
+            <option value="docente">Docente</option>
+            <option value="tutores">Tutores</option>
+            <option value="prefierorNoresponder">Prefiero No Responder</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>¿Estás de acuerdo trabajar de manera integrada con otros cursos?</p>
+          <label>
+            <input
+              name="conformidad"
+              value="Definitivamente"
+              type="radio"
+              class="input-radio"
+              checked
+            />Definitivamente</label
+          >
+          <label>
+            <input
+              name="conformidad"
+              value="Tal vez"
+              type="radio"
+              class="input-radio"
+            />Tal vez</label
+          >
+
+          <label
+            ><input
+              name="conformidad"
+              value="No estoy seguro/a"
+              type="radio"
+              class="input-radio"
+            />No estoy seguro/a</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>¿Qué es lo que más te gusta en Feria de Ciencias?</p>
+          <select id="me-gusta" name="me-gusta" class="form-control" required>
+            <option disabled selected value>Seleciona una opcion</option>
+            <option value="Competir con otros Cursos">Competir con otros Cursos</option>
+            <option value="La temática del Proyecto">La temática del Proyecto</option>
+            <option value="Compartir con otros Colegios">Compartir con otros Colegios</option>
+            <option value="Abrir la Escuela a la Comunidad">Abrir la Escuela a la Comunidad</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+           ¿Qué temáticas te gustaria trabajar en este año 2023?
+            <span class="clase">(Puedes marcar todas las que desees)</span>
+          </p>
+
+          <label
+            ><input
+              name="prefiero"
+              value="¿Cómo el cambio climático afecta a la salud?"
+              type="checkbox"
+              class="input-checkbox"
+            />¿Cómo el cambio climático afecta a la salud?</label
+          >
+          <label>
+            <input
+              name="prefiero"
+              value="¿Qué es la Terapia Genética?"
+              type="checkbox"
+              class="input-checkbox"
+            />¿Qué es la Terapia Genética?</label
+          >
+          <label
+            ><input
+              name="prefiero"
+              value="Alimentos Transgénicos, ¿Son peligrosos?"
+              type="checkbox"
+              class="input-checkbox"
+            />Alimentos Transgénicos, ¿Son peligrosos?</label
+          >
+          <label
+            ><input
+              name="prefiero"
+              value="¿Será posible vivir en Marte?"
+              type="checkbox"
+              class="input-checkbox"
+            />¿Será posible vivir en Marte?</label
+          >
+          <label
+            ><input
+              name="prefiero"
+              value="¿Para que sirve el dolor?"
+              type="checkbox"
+              class="input-checkbox"
+            />¿Para que sirve el dolor?</label
+          >
+          <label
+            ><input
+              name="prefiero"
+              value="¿Es posible clonar a un humano?"
+              type="checkbox"
+              class="input-checkbox"
+            />¿Es posible clonar a un humano?</label
+          >
+          <label
+            ><input
+              name="prefiero"
+              value="¿Usamos todo nuestro cerebro?"
+              type="checkbox"
+              class="input-checkbox"
+            />¿Usamos todo nuestro cerebro?</label
+          >
+          <label
+            ><input
+              name="prefiero"
+              value="¿Por qué nos salen las canas?"
+              type="checkbox"
+              class="input-checkbox"
+            />¿Por qué nos salen las canas?</label
+          >
+          <label
+            ><input
+              name="prefiero"
+              value="¿Por qué el cielo es azul?"
+              type="checkbox"
+              class="input-checkbox"
+            />¿Por qué el cielo es azul?</label
+          >
+          <label
+            ><input
+              name="prefiero"
+              value="¿El cerebro duerme?"
+              type="checkbox"
+              class="input-checkbox"
+            />¿El cerebro duerme?</label
+          >
+          <label
+            ><input
+              name="prefiero"
+              value="¿Es posible hacer carne en un laboratorio?"
+              type="checkbox"
+              class="input-checkbox"
+            />¿Es posible hacer carne en un laboratorio?</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>¿Algún comentario o sugerencia?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Escribe aquí tu comentario..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Enviar
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
